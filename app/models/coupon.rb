@@ -5,5 +5,5 @@ class Coupon < ApplicationRecord
     validates :name, presence: true
     validates :amount, presence: true
     validates :status, presence: true, inclusion: { in: ['active', 'inactive'] }
-  end
+end
   
